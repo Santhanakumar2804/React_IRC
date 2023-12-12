@@ -1,16 +1,24 @@
-.navbar{
-    background-color: #1D2B64;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #F8CDDA, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #F8CDDA, #1D2B64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    ;
-    text-align:center;
+.nav
+{
     display: flex;
-    justify-content: right;
-    padding: 1rem;
-    border-radius: 1rem;
-    margin-top: 1rem;
+    justify-content: space-between;
+    background:#1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 100vw;
 }
-.navbar a{
-    text-decoration: none;
-    padding: 1rem;
+.logo
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav ul li{
+    display: inline-block;
+    line-height: 25px;
+    margin-right: 40px;
+}
+.h3{
+    right: 0.1%;
 }
