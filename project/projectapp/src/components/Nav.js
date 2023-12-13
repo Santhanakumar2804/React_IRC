@@ -20,7 +20,7 @@ const Nav = () => {
        </li>
         <li>
           <Link to='/register' className="nav-link">
-          SIGNIN
+          REGISTER
           </Link>
        </li>
         <li>
