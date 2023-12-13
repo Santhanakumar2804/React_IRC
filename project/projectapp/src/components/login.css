@@ -1,0 +1,80 @@
+body{
+    /* background: #E8CBC0;
+background: -webkit-linear-gradient(to left, #636FA4, #E8CBC0); 
+background: linear-gradient(to left, #636FA4, #E8CBC0);  */
+
+background-color: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height:90vh;
+    width:100vw;
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container1
+{
+    height: 20rem;
+    /* height: 20px\; */
+    width: 250px;
+    background-color:#faf9f7;
+    background-repeat: no-repeat;
+    /* background-size:5%; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    border-radius: 30px;
+    gap: 1rem;
+    margin-top: 25%;
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+.name-input1
+{
+    background-repeat: no-repeat;
+    width: 80%;
+    padding: 1rem;
+    border: none;
+    border-bottom: 2px solid trans;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(227, 241, 243);
+    font-weight:100;
+    
+}
+.name-input1:focus{
+    border-bottom: 2px solid rebeccapurple;
+}
+.button-input1
+{
+    background: #005AA7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-repeat: no-repeat;
+   width: 80%;
+   padding: 1rem;
+   border: none;
+   border-bottom: 2px solid trans;
+   outline: none;
+   border-radius: 5px;
+   font-weight:100;
+}
+
+.shadow
+{
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.138),
+    6.7px 6.7px 5.3px rgba(154, 222, 235, 0.198),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.245),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.292),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.352),
+    100px 100px 80px rgba(0, 0, 0, 0.49)
+;
+}

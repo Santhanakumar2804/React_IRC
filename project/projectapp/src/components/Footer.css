@@ -1,0 +1,17 @@
+.first {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #212020;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    color: white;
+    position:absolute;
+    text-align:center;
+    justify-content: center;
+    font-weight: 60;
+    height: 1.4cm;
+    
+}
