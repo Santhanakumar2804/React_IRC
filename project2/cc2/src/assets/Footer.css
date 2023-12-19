@@ -1,0 +1,35 @@
+.first {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #8e7e03;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    color: rgb(5, 4, 4);
+    position:absolute;
+    text-align:center;
+    justify-content: center;
+    font-weight: 60;
+    height: 1.7cm;
+}
+.footer-links{
+    text-align:justify;
+    justify-content:space-between;
+    display: flex;
+    text-align:left;
+}
+.footer-text{
+    text-align:justify;
+    justify-content:space-between;
+    display: flex;
+    border-left: 1rem;
+
+}
+.social{
+    /* text-align:justify; */
+    /* justify-content:space-between; */
+    display: flex;
+    gap:2rem;
+}
