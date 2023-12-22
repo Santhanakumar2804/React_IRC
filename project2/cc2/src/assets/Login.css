@@ -1,7 +1,5 @@
+/* Background styling */
 .back {
-    /* background-color: #304352; */
-   
-     /* Light blue background */
     height: 400px;
     width: 100vw;
     margin: 0;
@@ -10,47 +8,50 @@
     align-items: center;
 }
 
+/* Container styling */
 .container1 {
     height: 300px;
     width: 400px;
-    background-color: #f8f6f3;  /* Light gray background */
+    background-color: #f8f6f3;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 15px; /* Increased border-radius for a softer look */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Increased box-shadow for depth */
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Input field styling */
 .name-input {
     width: 80%;
     padding: 1rem;
     margin: 0.5rem 0;
     border: none;
-    border-bottom: 2px solid #06caa9;  /* Blue underline */
+    border-bottom: 2px solid #06caa9;
     outline: none;
     border-radius: 5px;
     background-color: #ecf0f1;
     transition: border-color 0.3s ease-in-out;
 }
 
+/* Input field focus styling */
 .name-input:focus {
-    border-bottom: 2px solid #e74c3c;  /* Red underline on focus */
+    border-bottom: 2px solid #e74c3c;
 }
 
+/* Button styling */
 .button-input {
     width: 80%;
     padding: 1rem;
     margin-top: 1rem;
     border: none;
     border-radius: 5px;
-    background: #088f9b;  /* Blue button color */
-    color: #fff;  /* White text color */
+    background: #1335f6;
+    color: #fff;
     cursor: pointer;
     transition: background 0.3s ease-in-out;
 }
 
+/* Button hover styling */
 .button-input:hover {
-    background: #fd0202;  /* Darker blue on hover */
+    background: #1cdb0a;
 }
-
-

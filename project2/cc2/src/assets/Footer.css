@@ -2,13 +2,16 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    background-color: #8e7e03;
+    background-color: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
     bottom: 0;
     right: 0;
     left: 0;
     overflow: hidden;
-    color: rgb(5, 4, 4);
-    position:absolute;
+    color: rgb(247, 242, 242);
+    position:fixed;
     text-align:center;
     justify-content: center;
     font-weight: 60;
@@ -18,18 +21,21 @@
     text-align:justify;
     justify-content:space-between;
     display: flex;
-    text-align:left;
+    text-align:right;
+    /* position: fixed; */
 }
 .footer-text{
     text-align:justify;
     justify-content:space-between;
     display: flex;
     border-left: 1rem;
-
+    
 }
 .social{
     /* text-align:justify; */
     /* justify-content:space-between; */
     display: flex;
-    gap:2rem;
+    justify-content:space-around;
+    gap:4rem;
+    /* gap: 5rem; */
 }

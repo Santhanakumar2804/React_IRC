@@ -1,16 +1,20 @@
 .sidebar {
     height:33rem;
     width: 250px;
+    gap:1rem;
     /* position: fixed; */
     /* top: 0;
     left: 0; */
-    background-color: #12071c;
+    background-color: #076585;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
     padding-top: 20px;
     font-size: 1.3rem;
     color: #ab1212;
     /* position: relative; */
     /* top: 3.5rem; */
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 0 5px rgba(25, 24, 24, 0.1);
     z-index: -1;
     /* bottom:2rem; */
   }
@@ -33,11 +37,11 @@
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: #55ccea;
+    color: #151616;
     transition: background 0.3s ease;
   }
   
   .nav a:hover {
-    background: #b9c7d5;
-    color: #829eab;
+    background: #111314;
+    color: #141617;
   }

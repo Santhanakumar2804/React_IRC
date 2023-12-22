@@ -23,7 +23,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div style={{ backgroundImage: `url(${Image})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className='bimgage'>
+    <div style={{ backgroundImage: `url(${Image})`, backgroundSize:'contain', backgroundPosition: 'center' }} className='bimgage'>
       <div className='backg'>
         <div style={sidebarStyle} className="sidebar">
           <header className="sidebar-header">
@@ -36,15 +36,13 @@ const Sidebar = () => {
             <a style={navLinkStyle} href="/products">
               PRODUCTS
             </a>
-            <a style={navLinkStyle} href="/orders">
-              ORDERS
+            <a style={navLinkStyle} href="/about us">
+              ABOUT US
             </a>
-            <a style={navLinkStyle} href="/settings">
-              SETTINGS
+            <a style={navLinkStyle} href="/admin">
+              ADMIN
             </a>
-            <a style={navLinkStyle} href="/customers">
-              LOG OUT
-            </a>
+           
           </nav>
           <h2>WELCOME USER!!</h2>
         </div>

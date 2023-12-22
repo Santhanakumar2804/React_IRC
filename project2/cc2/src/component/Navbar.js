@@ -1,28 +1,29 @@
-import "../assets/Navbar.css"
-import {Link} from 'react-router-dom'
-const Navbar=()=>
-{
-    return (
-        <nav className="navbar">
+// Navbar.js
+
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { AiOutlineHome, AiOutlineLogin, AiOutlineUser, AiOutlineDashboard } from 'react-icons/ai';
+import '../assets/Navbar.css';
+
+const Navbar = () => {
+  return (
+    <nav className="navbar">
       <ul>
         <Link to='/home'>
-          <li>HOME</li>
+          <li><AiOutlineHome className="icon" /> HOME</li>
         </Link>
-      
         <Link to='/login'>
-          <li>LOGIN</li>
+          <li><AiOutlineLogin className="icon" /> LOGIN</li>
         </Link>
-      
         <Link to='/register'>
-          <li>REGISTER</li>
+          <li><AiOutlineUser className="icon" /> REGISTER</li>
         </Link>
         <Link to='/sidebar'>
-          <li>DASHBOARD</li>
+          <li><AiOutlineDashboard className="icon dashboard-icon" /></li>
         </Link>
-      
       </ul>
     </nav>
+  );
+};
 
-    )
-}
-export default Navbar
+export default Navbar;
