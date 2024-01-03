@@ -1,5 +1,4 @@
 import React from 'react';
-// import './Nav.js';
 import './SideBar.css';
 const Sidebar = () => {
   return (
@@ -15,8 +14,6 @@ const Sidebar = () => {
         </li>
        
         {/* Add more list items as needed */}
-      </ul>
-      <ul className="nav">
         <li>
           <a href="#">
             <i className="zmdi zmdi-view-dashboard"></i> SPORTS CATEGORIES
@@ -24,8 +21,6 @@ const Sidebar = () => {
         </li>
        
         {/* Add more list items as needed */}
-      </ul>
-      <ul className="nav">
         <li>
           <a href="#">
             <i className="zmdi zmdi-view-dashboard"></i> NEWS&UPDATES
@@ -33,8 +28,7 @@ const Sidebar = () => {
         </li>
        
         {/* Add more list items as needed */}
-      </ul>
-      <ul className="nav">
+
         <li>
           <a href="#">
             <i className="zmdi zmdi-view-dashboard"></i> ANALYTICS
@@ -42,8 +36,7 @@ const Sidebar = () => {
         </li>
        
         {/* Add more list items as needed */}
-      </ul>
-      <ul className="nav">
+
         <li>
           <a href="#">
             <i className="zmdi zmdi-view-dashboard"></i> FAN ZONE
@@ -51,8 +44,6 @@ const Sidebar = () => {
         </li>
        
         {/* Add more list items as needed */}
-      </ul>
-      <ul className="nav">
         <li>
           <a href="#">
             <i className="zmdi zmdi-view-dashboard"></i>FAN ACCESSORIES
@@ -60,26 +51,17 @@ const Sidebar = () => {
         </li>
        
         {/* Add more list items as needed */}
-      </ul>
-      <ul className="nav">
         <li>
           <a href="#">
             <i className="zmdi zmdi-view-dashboard"></i>EXCLUSIVE RELEASE
           </a>
         </li>
        
-        {/* Add more list items as needed */}
-      </ul>
-      <ul className="nav">
         <li>
           <a href="#">
             <i className="zmdi zmdi-view-dashboard"></i>DISCOUNTS
           </a>
         </li>
-       
-        {/* Add more list items as needed */}
-      </ul>
-      <ul className="nav">
         <li>
           <a href="#">
             <i className="zmdi zmdi-view-dashboard"></i>SPECIAL OFFERS!!
